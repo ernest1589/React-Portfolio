@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@layer base {
+  body {
+    @apply font-[WorkSans];
+  }
+  li {
+    @apply px-6;
+    @apply cursor-pointer;
+  }
+}
