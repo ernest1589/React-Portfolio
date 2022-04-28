@@ -10,8 +10,23 @@ const About = () => {
               About
             </p>
           </div>
+          <div></div>
         </div>
-        <div></div>
+        <div className="max-w-[1000] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hey! This is Ernest, Please take a look around</p>
+          </div>
+          <div>
+            <p>
+              I am great at knowing what customers want, due to the different
+              skills I have developed since I started working. My biggest focus
+              it's on back end technologies to improve every single pert of the
+              business information and make sure it is reliable and easy to work
+              with. Want someone who can trust that will always have the
+              greatest attitude?
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
