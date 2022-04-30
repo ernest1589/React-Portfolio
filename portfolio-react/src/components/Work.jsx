@@ -1,4 +1,8 @@
 import React from "react";
+import PerfectMeal from "../assets/Login-Form.png";
+import NxtMovie from "../assets/nxt-movie.png";
+import ReadmeGenerator from "../assets/Readme-Generator.png";
+import TeamProfileGenerator from "../assets/Team-Profile-Generator.png";
 
 const Work = () => {
   return (
@@ -14,15 +18,90 @@ const Work = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
-            <div>
-              <span></span>
-              <div>
+          <div
+            style={{ backgroundImage: `url(${PerfectMeal})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Project - Perfect Meal
+              </span>
+              <div className="pt-8 text-center">
                 <a href="">
-                  <button></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
                 <a href="">
-                  <button></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${NxtMovie})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Project - Perfect Meal
+              </span>
+              <div className="pt-8 text-center">
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${ReadmeGenerator})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Project - Perfect Meal
+              </span>
+              <div className="pt-8 text-center">
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${TeamProfileGenerator})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Project - Perfect Meal
+              </span>
+              <div className="pt-8 text-center">
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-600 text-white font-bold text-lg">
+                    Code
+                  </button>
                 </a>
               </div>
             </div>
