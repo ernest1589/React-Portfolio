@@ -3,16 +3,16 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full h-screen bg-[#618B4A]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-red-600">Hi my Name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <p className="text-4xl text-white ">Hi my Name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#D7F9F1]">
           Ernesto Ramirez
         </h1>
-        <h2 className="text-4xl sm:text-7xl text-[#8892b0]">
+        <h2 className="text-4xl sm:text-7xl text-[#D7F9F1]">
           I am a Full Stack Developer
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
+        <p className="text-[#D7F9F1] py-4 max-w-[700px]">
           I'm a currently student of a full-stack developer program, where I am
           learning everything that is required to be one, using different
           technologies. I will specialize in back end technologies. My favorite
